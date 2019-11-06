@@ -1,7 +1,7 @@
 class CreateFanComments < ActiveRecord::Migration[6.0]
   def change
     create_table :fan_comments do |t|
-      t.integer :suthor_no
+      t.integer :author_no
       t.string :name
       t.text :body
       t.boolean :deleted

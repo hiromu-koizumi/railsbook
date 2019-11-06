@@ -41,7 +41,7 @@ ActiveRecord::Schema.define(version: 2019_11_04_083644) do
   end
 
   create_table "fan_comments", force: :cascade do |t|
-    t.integer "suthor_no"
+    t.integer "author_no"
     t.string "name"
     t.text "body"
     t.boolean "deleted"
